@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC436E9325F9B84600352C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436E9225F9B84600352C15 /* AppDelegate.swift */; };
 		AC436E9525F9B84600352C15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436E9425F9B84600352C15 /* SceneDelegate.swift */; };
-		AC436E9725F9B84600352C15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436E9625F9B84600352C15 /* ViewController.swift */; };
+		AC436E9725F9B84600352C15 /* LoteriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436E9625F9B84600352C15 /* LoteriaViewController.swift */; };
 		AC436E9A25F9B84600352C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC436E9825F9B84600352C15 /* Main.storyboard */; };
 		AC436E9C25F9B84700352C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC436E9B25F9B84700352C15 /* Assets.xcassets */; };
 		AC436E9F25F9B84700352C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC436E9D25F9B84700352C15 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		AC436E8F25F9B84600352C15 /* Loteria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loteria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC436E9225F9B84600352C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC436E9425F9B84600352C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC436E9625F9B84600352C15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC436E9625F9B84600352C15 /* LoteriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoteriaViewController.swift; sourceTree = "<group>"; };
 		AC436E9925F9B84600352C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC436E9B25F9B84700352C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC436E9E25F9B84700352C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				AC436E9225F9B84600352C15 /* AppDelegate.swift */,
 				AC436E9425F9B84600352C15 /* SceneDelegate.swift */,
-				AC436E9625F9B84600352C15 /* ViewController.swift */,
+				AC436E9625F9B84600352C15 /* LoteriaViewController.swift */,
 				AC436E9825F9B84600352C15 /* Main.storyboard */,
 				AC436E9B25F9B84700352C15 /* Assets.xcassets */,
 				AC436E9D25F9B84700352C15 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC436E9725F9B84600352C15 /* ViewController.swift in Sources */,
+				AC436E9725F9B84600352C15 /* LoteriaViewController.swift in Sources */,
 				AC436E9325F9B84600352C15 /* AppDelegate.swift in Sources */,
 				AC436E9525F9B84600352C15 /* SceneDelegate.swift in Sources */,
 			);

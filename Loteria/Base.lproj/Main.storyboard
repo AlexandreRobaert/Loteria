@@ -49,10 +49,10 @@
                                     <action selector="generateGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1y-uT-nWW"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="I05-OR-ODj">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="I05-OR-ODj">
                                 <rect key="frame" x="57" y="350.5" width="300" height="195"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gFS-oo-cSv">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gFS-oo-cSv">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="90"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xod-Ad-Qkh">
@@ -78,7 +78,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gJZ-Q2-Mgu">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gJZ-Q2-Mgu">
                                         <rect key="frame" x="0.0" y="105" width="300" height="90"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdH-tu-mGX">
@@ -111,16 +111,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fkL-eJ-Ogu" secondAttribute="trailing" constant="16" id="4LB-Wp-6Yk"/>
+                            <constraint firstItem="Dg1-Ub-FvG" firstAttribute="centerY" secondItem="69c-U0-1XA" secondAttribute="centerY" id="9iO-W3-KsC"/>
                             <constraint firstItem="69c-U0-1XA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9oj-pT-ZrO"/>
+                            <constraint firstItem="Dg1-Ub-FvG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="F4x-P0-TRo"/>
                             <constraint firstItem="I05-OR-ODj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FBa-cf-KYI"/>
-                            <constraint firstItem="Dg1-Ub-FvG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Jqb-ti-Yqz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dg1-Ub-FvG" secondAttribute="trailing" constant="16" id="QpF-FD-Api"/>
                             <constraint firstItem="8P1-jf-roz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="RTB-LR-fv2"/>
-                            <constraint firstItem="Dg1-Ub-FvG" firstAttribute="centerY" secondItem="69c-U0-1XA" secondAttribute="centerY" id="UNa-oY-gjn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fkL-eJ-Ogu" secondAttribute="bottom" constant="30" id="Ykw-Dq-dyQ"/>
-                            <constraint firstItem="Dg1-Ub-FvG" firstAttribute="centerX" secondItem="69c-U0-1XA" secondAttribute="centerX" id="aS5-zh-tSH"/>
                             <constraint firstItem="69c-U0-1XA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d8G-ep-ncI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8P1-jf-roz" secondAttribute="trailing" constant="16" id="iO3-MB-aas"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dg1-Ub-FvG" secondAttribute="trailing" constant="16" id="ioa-lX-Xsm"/>
                             <constraint firstItem="fkL-eJ-Ogu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lwj-Gj-b9e"/>
                             <constraint firstItem="69c-U0-1XA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="qeH-u1-qau"/>
                             <constraint firstItem="I05-OR-ODj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="u9a-zq-Swp"/>
